@@ -1,0 +1,13 @@
+[project]
+name = "mcp-a2a-and-beyond"
+version = "0.1.0"
+description = "this is mcp, and a2a practices repo"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langchain-groq>=0.3.7",
+    "langchain-mcp-adapters>=0.1.9",
+    "langchain-openai>=0.3.30",
+    "langgraph>=0.6.4",
+    "mcp>=1.12.4",
+]
