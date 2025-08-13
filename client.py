@@ -16,12 +16,12 @@ async def main():
     client = MultiServerMCPClient(
         {
             "math": {
-                "transport": "stdio",             # ✅ required
-                "command": "python",               # ✅ program to run
-                "args": [mathserver_path]           # ✅ must be 'args', not 'arguments'
+                "transport": "stdio",             
+                "command": "python",               
+                "args": [mathserver_path]           s
             },
             "weather": {
-                "transport": "streamable_http",     # ✅ required
+                "transport": "streamable_http",     
                 "url": "http://localhost:8000/mcp"  # ensure this server is running
             }
         }
