@@ -1,0 +1,1 @@
+## this is the demo mcp practice, where i have to server math and weather and a client..
