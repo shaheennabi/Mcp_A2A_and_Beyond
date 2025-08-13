@@ -10,8 +10,7 @@ load_dotenv()
 
 async def main():
     # Get absolute path for mathserver.py
-    mathserver_path = os.path.abspath("mathserver.py")
-
+    mathserver_path = os.path.abspath("mcp files/mathserver.py")
     # Define the MCP client with correct config
     client = MultiServerMCPClient(
         {
